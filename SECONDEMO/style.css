@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: #f4f6f8;
+    background-image: url("image.jpg");
+}
+
+.container {
+    padding: 5em;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+.buttons {
+    padding-top: 30px;
+    
+}
+.btnSubmit {
+    width: 60px;
+    color: #2b7bff;
+    background-color: rgb(243, 239, 233);
+}
+
+
+/* #highscoreLink {
+    color: #2b7bff;
+}
+#highscoreLink:hover {
+    color: #2b7bff;
+    font-weight: bold;
+} */
+#highscoreListHeader {
+    color: #2b7bff;
+    font-weight: bold;
+}
+ 
+#btnSubmit {
+    color: #2b7bff;
+}
+
+#btnSubmit:hover {
+    color: #2b7bff;
+    font-weight: bold;
+}
+
+#form {
+    display: inline-block;
+}
+
+@media screen and (max-width: 900px) {
+    #button-index-0{
+        margin: auto;
+        margin-bottom: 2em;
+        display: grid;    
+    }
+    #button-index-1{
+        margin: auto;
+        margin-bottom: 1em;
+        display: grid;        
+    }
+    #button-index-2{
+        margin: auto;
+        margin-bottom: 1em;
+        display: grid;
+    }
+    #button-index-3{
+        margin: auto;
+        display: grid;      
+    }
+    #buttonClear{
+        margin: auto;
+        display: grid;      
+    }
+    #buttonGoBack{
+        margin: auto;
+        display: grid;  
+        margin-bottom: 1em;
+        margin-top: 1em;    
+    }
+  }
+  

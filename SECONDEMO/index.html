@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="C:\Users\Vaishnavi\Desktop\SECONDEMO\style.css">
+    <title>Code Quiz</title>
+</head>
+
+<body>
+    <header id="navBar">
+        <nav class="navbar navbar-expand navbar-light bg-light">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <p id="highscoreBtn"></p>
+                    </li>
+                </ul>
+                <span class="navbar-text" id="timerText" style="color: black; font-size:150%; font-weight: 100;">
+                   Time: 00
+                </span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <div class="card text-center testCard">
+            <div class="card-body">
+                <h5 class="card-title">Coding Quiz Challenge</h5>
+                <p class="card-text" id="cardResult"></p>
+                <div class="buttons grid">
+                    <button class="btn btn-primary" id="button-index-0">test</button>
+                    <button class="btn btn-primary" id="button-index-1">test</button>
+                    <button class="btn btn-primary" id="button-index-2">test</button>
+                    <button class="btn btn-primary" id="button-index-3">test</button>
+                    <!-- <a href="highscore.html" id="btnSubmit">Submit</a> -->
+                </div>
+                <form class="form-inline" id="form">
+                    <div>
+                        
+                        <!-- <p>Enter initials:</p> -->
+                    </div>
+                    <div class="form-group mx-sm-3 mb-2">
+                        <label for="inputPassword2" class="sr-only"></label>
+                        
+                    </div>
+                    <button id="btnSubmit"></button>
+                </form>
+            </div>
+            <div class="card-footer text-muted">
+              
+            </div>
+        </div>
+        <div>
+
+            <li class="list-group-item active h2" id="highscoreListHeader"></li>
+            <ul class="list-group list" id="myList"></ul>
+            <div id="highscoreButtons">
+                <a href="index.html" class="btn btn-primary" id="buttonGoBack"></a>
+                <button class="btn btn-primary" id="buttonClear"></button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="C:\Users\Vaishnavi\Desktop\SECONDEMO\questions.js"></script>
+</body>
+
+</html>
